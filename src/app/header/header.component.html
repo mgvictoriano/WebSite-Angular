@@ -1,27 +1,38 @@
 <header class="main-header">
     <h1 class="main-header__title">
-        <span class="main-header__title--blue">MGaia.</span><span class="main-header__title--orange">Tech</span>
+        <img src="./assets/logo.png" height="150px" style="margin: 0;" style="margin-top: -40px;" />
+        <span class="main-header__title--blue">Tech</span><span class="main-header__title--orange">Shop</span>
     </h1>
+    <h4> WebSite desenvolvido para composição de portfólio. Tecnologias utilizadas: Angular,
+        HTML, CSS, TypeScript e
+        Node.Js. &copy; <a href="https://mgaia.tech">mgaia.tech</a></h4>
+</header>
+
+<body>
+    <br>
     <div class="container-menu">
         <nav class="main-header__menu">
             <ul>
-                <li>
+                <ul>
                     <a routerLink="produtos">Produtos</a>
-                </li>
-                <li>
+                </ul>
+                <ul>
                     <a routerLink="carrinho">
                         <i class="fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge-carrinho">{{ carrinhoService.obtemCarrinho().length }}</span>
                     </a>
-                </li>
-                <li><a routerLink="contato">Contato</a></li>
-                <li><a><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a><i class="fa-brands fa-instagram"></i></a></li>
-                <li><a><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+                <ul><a routerLink="contato">Contato</a></ul>
+
+                <div class="redes" style="display: inline-flex">
+                    <ul><a><i style="margin-right: -160px" class="fa-brands fa-facebook-f"></i></a></ul>
+                    <ul><a><i style="margin-right: -100px" class="fa-brands fa-instagram"></i></a></ul>
+                    <ul><a><i style="margin-right: -50px" class="fa-brands fa-twitter"></i></a></ul>
+                    <ul><a><i style="margin-right: -5px" class="fa-brands fa-linkedin-in"></i></a></ul>
+                </div>
             </ul>
         </nav>
         <app-barra-pesquisa></app-barra-pesquisa>
     </div>
-</header>
+</body>

@@ -32,6 +32,8 @@
 
 .product__avaiability {
     font-size: 12px;
+    font-weight: 300;
+
 }
 
 label {
@@ -56,7 +58,8 @@ input[type=number] {
 }
 
 button {
-    background-color: var(--blue);
+    background-color: rgb(40, 128, 6);
+    border-radius: 10px;
     border: none;
     padding: 10px;
     color: white;

@@ -41,12 +41,15 @@
 
 .product-item__name {
     font-size: 24px;
-    color: var(--blue);
+    color: rgb(100, 21, 21);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .product-item__price {
-    color: var(--orange);
-    font-size: 32px;
+    color: rgb(2, 163, 106);
+    font-size: 25px;
     font-weight: bold;
 }
 

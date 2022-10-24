@@ -7,19 +7,18 @@
 .search-form input {
     box-sizing: border-box;
     height: 10px;
-
     padding: 20px;
     justify-content: flex-end;
     background-color: rgba(102, 44, 44, 0.164);
     border-radius: 50px;
     color: green;
-    border: solid 1.2px #fff;
+    border: solid 1.5px #fff;
     transition: all .3s ease-in-out;
     font-size: 22px;
 }
 
 .search-form input:focus {
-    background-color: var(--blue);
+    background-color: rgb(2, 163, 106);
     outline: none;
     color: #fff;
 }
@@ -29,7 +28,7 @@
     height: 56px;
     background-color: var(--blue);
     border: none;
-    color: #fff;
+    color: rgb(188, 182, 182);
     font-size: 22px;
     margin-top: -8px;
 }
